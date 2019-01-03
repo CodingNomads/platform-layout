@@ -40,12 +40,13 @@ Components to use when creating and editing courses. Add new components in this 
 
 ### Tags (Dividers)
 
-<h4 id="section-divider">Section Dividers</h4>
+#### Section Dividers
+
 ```html
 <h5 class="section-divider">Section Mini-Heading</h5>
 ```
 
-<h4 id="section-assignment">Assignment Dividers</h4>
+#### Assignment Dividers
 
 ```html
 <h5 class="section-assignment">Assignments</h5>
@@ -99,7 +100,7 @@ Minimal example:
 
 ![quote](quote.png)
 
-Check out the Maker Theme SCSS for more options.
+Check out the [Maker Theme SCSS](https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker) for more options.
 
 
 ### Code Blocks

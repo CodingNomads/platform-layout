@@ -1,20 +1,20 @@
 # Reusable Layout Components for CN Platform
 
-- [Objective](##Objective)
-- [Where?](##Where?)
-- [Components](##Components)
-    * [Tags (Dividers)](###Tags%20(Dividers))
-        - [Section Dividers](####Section%20Dividers)
-        - [Assignment Dividers](####Assignment%20Dividers)
-    * [Headings](###Headings)
-    * [Resources](###Resources)
-    * [Tasks](###Tasks)
-    * [Quotes](###Quotes)
-    * [Code Blocks](###Code%20Blocks)
-- [Formatting](##Formatting)
-    * [Code Blocks](###Code%20Blocks)
-    * [Code font size](###Code%20font%20size)
-    * [Documentation font size](###Documentation%20font%20size)
+- Objective
+- Where?
+- Components
+    * Tags (Dividers)
+        - Section Dividers
+        - Assignment Dividers
+    * Headings
+    * Resources
+    * Tasks
+    * Quotes
+    * Code Blocks
+- Formatting
+    * Code Blocks
+    * Code font size
+    * Documentation font size
 
 
 ## Objective

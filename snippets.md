@@ -46,3 +46,7 @@ Use Editor-provided headings, **no editor styling**.
     ```
     print("your code here")
     ```
+
+### In-line Code
+
+In _HTML editor_: `<code>your_code_here()</code>`

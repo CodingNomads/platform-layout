@@ -114,6 +114,10 @@ Wrap code snippets into triple-backticks:
 Note: Syntax highlighting is sometimes broken.
 
 
+### In-line Code
+
+Currently no straightforward button to do this. Therefore, switch to the _HTML editor_ and wrap in-line code snippets into `<code>your_code()</code>` tags.
+
 ---
 
 ## Formatting

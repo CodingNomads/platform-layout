@@ -95,7 +95,10 @@ Same as for Resources.
 Minimal example:
 
 ```html
-<p class="quote-card">Quote goes here<p>
+<div class="quote-card">
+    <p>Quote goes here</p>
+    <cite><a href="RESOURCE_URL">resource name</a></cite>
+<div>
 ```
 
 ![quote](quote.png)

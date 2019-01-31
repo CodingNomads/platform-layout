@@ -42,13 +42,13 @@ Components to use when creating and editing courses. Add new components in this 
 
 To help students stay on track, add weekly breakdowns in the "Summary" of each section (Edit Topic)
 
-```
+```html
 <h3 class="week week-1">Week 1 - Part 1</h3>
 ```
 
 Different weeks can be given different styles, so add also the `week-#` class appropriately, e.g.:
 
-```
+```html
 <h3 class="week week-3">Week 3 - Part 3</h3>
 ```
 

@@ -1,5 +1,11 @@
 ## Component Snippets
 
+### Weekly Breakdowns
+
+```
+<h3 class="week week-1">Week 1 - Part 1</h3>
+```
+
 ### Tags (Dividers)
 
 #### Section Dividers

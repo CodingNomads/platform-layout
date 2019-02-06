@@ -79,6 +79,16 @@ Different weeks can be given different styles, so add also the `week-#` class ap
 **Don't apply editor styles to headings** - we can increase heading size, font-weight,
 etc. centrally through SCSS.
 
+### Information
+
+Use this bootstrap alert box to include information about upcoming course sections. E.g.: "Just read over this for now, we'll dig deepr into it in a later section."
+
+```html
+<div class="alert alert-warning" role="alert">
+  Infos about upcoming course sections.
+</div>
+```
+
 ### Resources
 
 ```html

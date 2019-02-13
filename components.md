@@ -122,7 +122,7 @@ Minimal example:
 <div class="quote-card">
     <p>Quote goes here</p>
     <cite><a href="RESOURCE_URL">resource name</a></cite>
-<div>
+</div>
 ```
 
 ![quote](quote.png)

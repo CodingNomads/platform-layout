@@ -28,7 +28,7 @@ Use Editor-provided headings, **no editor styling**.
 
 ```html
 <div class="alert alert-warning" role="alert">
-  Infos about upcoming course sections.
+  <strong>Note:</strong> Infos about upcoming course sections.
 </div>
 ```
 

@@ -1,0 +1,211 @@
+/* Limits the width of the learning content side-wise, while keeping the edges white */
+div[role="main"] {
+  margin: auto;
+  max-width: 900px;
+}
+
+.text-sm-right { padding-right: 20px; }
+
+/* remove "Last modified" text from bottom of each resource */
+.modified {display: none;}
+
+.ftoggler {
+   display: none;
+}
+
+.mform fieldset {
+   border-bottom: 0px solid #dee2e6;
+}
+
+.col-md-9.form-inline.felement {
+    padding-left: 10.3rem;
+}
+
+.breadcrumb {
+    font-size: 16px;
+}
+
+/*  nav drawer styling */
+#nav-drawer {
+    font-size: 16px;
+    top: 130px;
+    padding-top: 30px;
+    height: calc(100% - 130px);
+    padding: 0;
+    background: #fff;
+}
+
+/* shift cookies label on login page to the right */
+.cookies {
+    margin-left: 20px;
+}
+
+/* make the course content block 100% of the screen - no white border */
+.col-1, .col-xs-1, .col-2, .col-xs-2, .col-3, .col-xs-3, .col-4, .col-xs-4, .col-5, .col-xs-5, .col-6, .col-xs-6, .col-7, .col-xs-7, .col-8, .col-xs-8, .col-9, .col-xs-9, .col-10, .col-xs-10, .col-11, .col-xs-11, .col-12, .col-xs-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0px; 
+    padding-left: 0px; 
+}
+
+/* re-add the border to the course cards on the front page*/ 
+.style-cards .course-item-inner {
+   height: 100%;
+    border: 1px solid #eee;
+    background: #fff;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* fixing logo size on login page */
+.has-logo .login-sitename a {
+    height: 90px;
+}
+
+/* fixing logo positioning & size*/
+.page-header .branding .site-logo {
+    height: 65px;
+    margin-top: -14px;
+}
+
+/* adjusting the spacing on the front page */
+#frontpage-available-course-list {
+    margin-top: -30px;
+}
+
+/* adjusting the spacing on the front page */
+.pagelayout-frontpage .sitetopic {
+    padding: 0px;
+    margin-top: -40px;
+}
+
+/* remove home from nav drawer*/
+#nav-drawer [data-key="home"] {
+   display: none;
+}
+
+/* remove calendar from nav drawer*/
+#nav-drawer [data-key="calendar"] {
+   display: none;
+}
+
+/* fix alignment of enrollment page self enrollment - push it to the left */
+.col-md-3 {
+    flex: 10 0 0%;
+}
+
+/* REMOVE "jump to" DROPDOWN */
+#jump-to-activity {display: none !important;}
+
+/* SITE WIDE FONT SIZE*/
+h2 { font-size: 1.8em; } /* increase page headings doesn't work currently (because it's not in the content?) */
+body { font-size: 1.2em; }
+
+/* MORE VERTICAL WHITESPACE  */
+h3, h4, h5 { padding-top: .3em; padding-bottom: 0.5em; }
+#vimeo-embed { padding-top: 50px; padding-bottom: 50px; }
+
+/* MOVE LIST ITEMS SLIGHTLY INWARDS */
+li {margin-left: 10px;}
+
+/* UPSCALE CODE BLOCKS */
+code {background-color: #f8f8ff; border-radius: 5px;}
+
+/* TABLES */
+table, th, td {border: 1px solid black;}
+th {background-color: rgba(0, 113, 189, 0.2);}
+
+/* SECTION DIVIDER LABELS */
+.section-first-divider, .section-divider, .section-assignment, .section-feedback {color: #fff; font-weight: bold; padding: 2px 0 2px 25px;}
+.section-first-divider {background-color: #049fcd; margin: 0px 0 5px 0;}
+.section-divider {background-color: #049fcd; margin: 30px 0 5px 0;}
+.section-assignment {background-color: #FBB03B; margin: 30px 0 5px 0;}
+.section-feedback {background-color: #8e8e8e; margin: 30px 0 5px 0;}
+/*.section-week {background-color: #0071BD; margin: 30px 0 5px 0;}*/
+.section-week {color: #0071BD; font-size: 35px !important; text-align: center;}
+.section-subclass {background-color: #e5e5e5;}
+
+/* COURSE OVERVIEW BACKGROUNDS */
+.assignment-div {background-color: rgba(251, 176, 59, 0.2);}
+.objectives-div {background-color: rgba(4, 159, 205, 0.2);}
+
+/* CODE BLOCKS pre*/
+pre {
+    font-size: 1.1em;
+}
+
+/* JUMBOTRON: Resources, Tasks */
+.resources {
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+
+.tasks {
+    background-color: whitesmoke;
+    border: 3px solid #FBB03B;
+}
+
+/* QUOTES */
+.quote-card {
+  background: #F8F8F8;
+  color: #222222;
+  padding: 20px;
+  padding-left: 60px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 90%;
+}
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+@media (max-width: 640px) {
+  .quote-card:after {
+    font-size: 22em;
+    right: -25px;
+  }
+}
+
+/* WEEKLY LABELS */
+.week {text-align: right; padding-right: 0px;}
+.week-1, .week-3, .week-5, .week-7 {color: #049fcd;}
+.week-2, .week-4, .week-6, .week-8 {color: #fbb03b;}
+
+
+/* could try USING PRISM.JS FOR CODE HIGHLIGHTING */
+/* PrismJS 1.16.0
+https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+bash+markup-templating+git+java+javastacktrace+django+python */

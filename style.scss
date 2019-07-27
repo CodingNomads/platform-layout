@@ -1,13 +1,19 @@
-/* Limits the width of the learning content side-wise, while keeping the edges white */
+/* SMALLER LEARNING PAGE WIDTH, PADDED WHITE */
 div[role="main"] {
   margin: auto;
   max-width: 900px;
 }
 
-.text-sm-right { padding-right: 20px; }
+/* RESET WIDTH FOR LANDING PAGE */
+#page-site-index div[role="main"] { max-width: 100%; }
 
-/* remove "Last modified" text from bottom of each resource */
+/* REMOVE "Last modified" FROM BOTTOM OF RESOURCES */
 .modified {display: none;}
+
+/* SOFTEN DESIGN OF 'RESTRICTED' INFO */
+/*.availabilityinfo.isrestricted { font-size: 0.7em; color: light-gray; }*/
+.availabilityinfo.isrestricted { display: none; }
+.availabilityinfo.isrestricted .badge-info { display: none; }
 
 .ftoggler {
    display: none;
@@ -100,7 +106,10 @@ div[role="main"] {
 #jump-to-activity {display: none !important;}
 
 /* SITE WIDE FONT SIZE*/
-h2 { font-size: 1.8em; } /* increase page headings doesn't work currently (because it's not in the content?) */
+h2 { font-size: 2.2em; } /* increase page headings doesn't work currently :thinking:? */
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
 body { font-size: 1.2em; }
 
 /* MORE VERTICAL WHITESPACE  */

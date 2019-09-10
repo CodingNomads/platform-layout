@@ -66,7 +66,7 @@ Different weeks can be given different styles, so add also the `week-#` class ap
 <h5 class="section-assignment">Assignments</h5>
 ```
 
-![dividers](dividers.png)
+![dividers](imgs/dividers.png)
 
 ### Headings
 
@@ -100,7 +100,8 @@ Use this bootstrap alert box to include information about upcoming course sectio
 Paste HTML into HTML editor of Page Activity.
 Switch to Editor view and copy-paste your Resource links into the body of the jumbotron, and style as bullet point list.
 
-![resources](resources.png)
+
+resources](resources.png)
 
 ### Tasks
 
@@ -112,7 +113,7 @@ Switch to Editor view and copy-paste your Resource links into the body of the ju
 
 Same as for Resources.
 
-![resources](tasks.png)
+![resources](imgs/tasks.png)
 
 ### Quotes
 
@@ -125,7 +126,7 @@ Minimal example:
 </div>
 ```
 
-![quote](quote.png)
+![quote](imgs/quote.png)
 
 Check out the [Maker Theme SCSS](https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker) for more options.
 

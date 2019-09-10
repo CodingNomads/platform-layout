@@ -33,8 +33,10 @@ In **Combined Feedback** / "For any correct response" enter:
 
 ```html
 <div class="alert alert-success" role="alert">
-    <strong>Thanks for submitting!</strong> You can compare your answer to our <strong>sample response</strong> below. Since these are open-ended questions, the answers might not match completely. Please discuss any further questions with your mentor and on <a href="https://forum.codingnomads.co/"
-        target="_blank" class="alert-link">our forum</a>.
+    <strong>Thanks for submitting!</strong> You can compare your answer to our
+    <strong>sample response</strong> below. Since these are open-ended questions,
+    the answers might not match completely. Please discuss any further questions
+    with your mentor and on <a href="https://forum.codingnomads.co/" target="_blank" class="alert-link">our forum</a>.
 </div>
 ```
 

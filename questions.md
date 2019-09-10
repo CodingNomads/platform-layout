@@ -52,7 +52,7 @@ Finally, in the **Multiple tries** section, set the "Penalty for each incorrect 
 
 You can also change the input size of the answer text field:
 
-![change input size of answer text](imgs/03_characters.png)
+![change input size of answer text](imgs/02_input_size.png)
 
 You can also **add tags** to each question:
 
